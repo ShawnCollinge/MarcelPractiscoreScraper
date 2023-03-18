@@ -70,10 +70,10 @@ lastName = "Englmaier"
 isMarcel = True
 splitURL = url.split("?")
 url = splitURL[0].strip()
-if isMarcel == "true":
-    isMarcel = True
-else:
-    isMarcel = False
+# if isMarcel == "true":
+#     isMarcel = True
+# else:
+#     isMarcel = False
 
 name = f"{lastName}, {firstName}"
 # options = Options()
