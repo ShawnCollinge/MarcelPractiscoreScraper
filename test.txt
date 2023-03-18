@@ -1,0 +1,61 @@
+Overall Time 97.81
+4/9 Production (81.34%)
+48/104 Overall (61.47%)
+A 107 C 21 D 6 M 41 NPM 0 NS 1 PROC 30
+637/875
+ 
+Skipping
+1/9 Production (100.00%)
+9/104 Overall (84.57%)
+Time 13.07, HF 5.9679
+A 13 C 4 D 1 M 0 NPM 0 NS 0 PROC 0
+78/90 (86.67%)
+
+
+Walk It Back
+1/9 Production (100.00%)
+9/104 Overall (79.30%)
+Time 13.90, HF 8.0576
+A 20 C 4 D 0 M 0 NPM 0 NS 0 PROC 0
+112/120 (93.33%)
+
+
+An Odd Plank
+1/9 Production (100.00%)
+12/104 Overall (79.92%)
+Time 14.75, HF 5.2203
+A 16 C 2 D 1 M 1 NPM 0 NS 0 PROC 0
+77/100 (77.00%)
+
+
+Quicky II
+1/9 Production (100.00%)
+26/104 Overall (65.29%)
+Time 13.94, HF 5.9541
+A 18 C 4 D 1 M 1 NPM 0 NS 1 PROC 0
+83/120 (69.17%)
+
+
+Sliding Scale
+1/9 Production (100.00%)
+8/104 Overall (77.35%)
+Time 18.02, HF 5.9933
+A 20 C 2 D 2 M 0 NPM 0 NS 0 PROC 0
+108/120 (90.00%)
+
+
+You're Out Of Your Element
+9/9 Production (0.00%)
+102/104 Overall (0.00%)
+Time 1.75, HF 0.0000
+A 1 C 0 D 0 M 21 NPM 0 NS 0 PROC 21
+-415/110 (-377.27%)
+
+
+Revenge Of The Nerds
+9/9 Production (0.00%)
+102/104 Overall (0.00%)
+Time 4.34, HF 0.0000
+A 5 C 3 D 0 M 17 NPM 0 NS 0 PROC 9
+-226/125 (-180.80%)
+

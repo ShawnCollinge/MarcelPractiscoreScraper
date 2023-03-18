@@ -1,0 +1,93 @@
+Overall Time 143.72
+5/40 Open (80.74%)
+10/210 Overall (80.74%)
+A 157 C 50 D 4 M 3 NPM 0 NS 1 PROC 0
+854/1070
+ 
+Stage 1 - 404 Name Not Found
+5/40 Open (81.73%)
+7/210 Overall (81.73%)
+Time 19.98, HF 6.6066
+A 20 C 8 D 0 M 0 NPM 0 NS 0 PROC 0
+132/140 (94.29%)
+
+
+Stage 2 - Duck Hunt
+7/40 Open (82.42%)
+12/210 Overall (82.42%)
+Time 11.46, HF 6.1082
+A 8 C 7 D 1 M 0 NPM 0 NS 0 PROC 0
+70/80 (87.50%)
+
+
+Stage 3 - Proportionalism
+18/40 Open (55.95%)
+74/210 Overall (55.95%)
+Time 20.01, HF 5.2974
+A 22 C 4 D 0 M 2 NPM 0 NS 0 PROC 0
+106/140 (75.71%)
+
+
+Stage 4 - Birthday Cake
+3/40 Open (89.83%)
+4/210 Overall (89.83%)
+Time 20.92, HF 6.5488
+A 21 C 8 D 0 M 0 NPM 0 NS 0 PROC 0
+137/145 (94.48%)
+
+
+Stage 5 - *69
+3/40 Open (88.13%)
+5/210 Overall (88.13%)
+Time 16.09, HF 7.4580
+A 20 C 5 D 0 M 0 NPM 0 NS 0 PROC 0
+120/125 (96.00%)
+
+
+Stage 6 - Do It Right This Time
+5/40 Open (89.89%)
+7/210 Overall (89.89%)
+Time 16.13, HF 6.9436
+A 20 C 3 D 0 M 0 NPM 0 NS 0 PROC 0
+112/115 (97.39%)
+
+
+Stage 7 - Press F To Pay Respects
+13/40 Open (69.39%)
+47/210 Overall (69.39%)
+Time 12.01, HF 6.4946
+A 12 C 7 D 0 M 1 NPM 0 NS 0 PROC 0
+78/100 (78.00%)
+
+
+Stage 8 - I've Lost Count Again
+6/40 Open (91.36%)
+9/210 Overall (91.36%)
+Time 13.26, HF 7.6923
+A 16 C 5 D 1 M 0 NPM 0 NS 0 PROC 0
+102/110 (92.73%)
+
+
+Stage 9 - Gone Fishing
+14/40 Open (55.83%)
+65/210 Overall (55.83%)
+Time 7.70, HF 5.4545
+A 10 C 0 D 1 M 0 NPM 0 NS 1 PROC 0
+42/55 (76.36%)
+
+
+Stage 10 - Order of Operations
+3/40 Open (84.22%)
+5/210 Overall (84.22%)
+Time 6.16, HF 8.7662
+A 8 C 3 D 1 M 0 NPM 0 NS 0 PROC 0
+54/60 (90.00%)
+
+
+Speed Check
+9/40 Open (96.87%)
+16/210 Overall (96.84%)
+Time 0.00, HF 175.7658
+A 0 C 0 D 0 M 0 NPM 0 NS 0 PROC 0
+0/1 (0.00%)
+
