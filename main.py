@@ -68,18 +68,11 @@ url =  input("URL? > ")
 firstName = "Marcel"
 lastName = "Englmaier"
 isMarcel = True
+
+
 splitURL = url.split("?")
 url = splitURL[0].strip()
-# if isMarcel == "true":
-#     isMarcel = True
-# else:
-#     isMarcel = False
-
 name = f"{lastName}, {firstName}"
-# options = Options()
-# options.headless = True
-#driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-# driver = webdriver.Firefox()
 options = FirefoxOptions()
 options.add_argument("--headless")
 driver = webdriver.Firefox(options=options)
