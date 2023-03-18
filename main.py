@@ -1,9 +1,7 @@
-import re, sys, time
+import re, time
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 
 def stage_list(StagesSoup) -> list:
     stageList = []
