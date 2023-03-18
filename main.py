@@ -1,7 +1,7 @@
 import re, time
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 def stage_list(StagesSoup) -> list:
     stageList = []
@@ -76,10 +76,13 @@ else:
     isMarcel = False
 
 name = f"{lastName}, {firstName}"
-options = Options()
-options.headless = False
+# options = Options()
+# options.headless = True
 #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-driver = webdriver.Firefox()
+# driver = webdriver.Firefox()
+options = FirefoxOptions()
+options.add_argument("--headless")
+driver = webdriver.Firefox(options=options)
 driver.get(url)
 html = driver.page_source
 MySoup = BeautifulSoup(html, "html.parser")
