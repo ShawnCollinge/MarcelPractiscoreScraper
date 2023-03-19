@@ -1,8 +1,8 @@
 import requests
 
-matchCode = "28e87e29-9fbb-4729-9769-4df1641e045f"
-firstName = "Marcel"
-lastName = "Englmaier"
+matchCode = input("Match code? > ")
+firstName = input("First name? > ")
+lastName = input("Last name? >")
 
 
 def get_shooterID(matchCode, lastName, firstName):
