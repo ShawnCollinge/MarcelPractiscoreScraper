@@ -1,9 +1,5 @@
 import requests
 
-matchCode = input("Match code (Example: 01e65294-8692-4adf-9897-29dc01a68360) > ")
-firstName = input("First name? > ").lower()
-lastName = input("Last name? > ").lower()
-
 def get_shooterID(matchCode, lastName, firstName):
     response = requests.get(f"https://s3.amazonaws.com/ps-scores/production/{matchCode}/match_def.json").json()['match_shooters']
     for shooter in response:
@@ -153,6 +149,10 @@ def marcel_print(stages, scores, shooter):
             printString += f"{overallScores[key]}{key} "
     print(printString)
 
+
+matchCode = input("Match code (Example: 01e65294-8692-4adf-9897-29dc01a68360) > ")
+firstName = input("First name? > ").lower()
+lastName = input("Last name? > ").lower()
 
 shooterInfo = get_shooterID(matchCode, lastName, firstName)
 
