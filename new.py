@@ -1,6 +1,6 @@
 import requests
 
-matchCode = input("Match code? > ")
+matchCode = input("Match code (Code from URL such as 01e65294-8692-4adf-9897-29dc01a68360)? > ")
 firstName = input("First name? > ")
 lastName = input("Last name? >")
 
