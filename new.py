@@ -4,6 +4,7 @@ def get_shooterID(matchCode, lastName, firstName):
     response = requests.get(f"https://s3.amazonaws.com/ps-scores/production/{matchCode}/match_def.json").json()['match_shooters']
     for shooter in response:
         if shooter['sh_ln'].lower() == lastName and shooter['sh_fn'].lower() == firstName:
+            print(shooter['sh_uuid'])
             return { 
                 "id": shooter['sh_uuid'], 
                 "class": shooter['sh_dvp'],
@@ -116,7 +117,8 @@ def marcel_print(stages, scores, shooter):
         "PROC": 0,
         "time": 0,
     }
-    for i in range(len(scores)):
+    print(scores)
+    for i in range(len(stages)):
         place = stages[i]['place']
         shooterClass = shooter['class'] 
         percent = stages[i]['percent']
