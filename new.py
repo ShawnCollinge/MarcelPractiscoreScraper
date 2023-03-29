@@ -150,7 +150,7 @@ def marcel_print(stages, scores, shooter):
     print(printString)
 
 
-matchCode = input("Match code (Example: 01e65294-8692-4adf-9897-29dc01a68360) > ")
+matchCode = input("Match code (Example: 01e65294-8692-4adf-9897-29dc01a68360) > ").strip()
 firstName = input("First name? > ").lower()
 lastName = input("Last name? > ").lower()
 
