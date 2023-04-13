@@ -60,7 +60,6 @@ def find_scores(matchCode, shooter):
     def find_shooter(stagescores):
         for shooter in stagescores:
             if shooter['shtr'] == shooterID:
-                rawScores = shooter['ts']
                 scores = {
                     'A': 0,
                     'C': 0,
@@ -71,30 +70,38 @@ def find_scores(matchCode, shooter):
                     'PROC': 0,
                     'time': 0
                 }
-                for timeInSec in shooter['str']:
-                    scores['time'] += timeInSec
-                if 'proc' in shooter:
-                    scores['PROC'] += shooter['proc']
-                scores['A'] += shooter['poph']
-                scores['M'] += shooter['popm']
-                for score in rawScores:
-                    # alpha = 1
-                    # charlie = 256
-                    # delta = 4096
-                    # ns = 65536
-                    # mike = 1048577
-                    # npm = 16777216
-                    scores['NPM'] += score // 16777216
-                    score %= 16777216
-                    scores['M'] += score // 1048576
-                    score %= 1048576
-                    scores['NS'] += score // 65536
-                    score %= 65536
-                    scores['D'] += score // 4096
-                    score %= 4096
-                    scores['C'] += score // 256
-                    score %= 256
-                    scores['A'] += score
+                try: 
+                    if 'ts' in shooter:
+                        rawScores = shooter['ts']
+                    else:
+                        rawScores = 0
+                    for timeInSec in shooter['str']:
+                        scores['time'] += timeInSec
+                    if 'proc' in shooter:
+                        scores['PROC'] += shooter['proc']
+                    scores['A'] += shooter['poph']
+                    scores['M'] += shooter['popm']
+                    for score in rawScores:
+                        # alpha = 1
+                        # charlie = 256
+                        # delta = 4096
+                        # ns = 65536
+                        # mike = 1048577
+                        # npm = 16777216
+                        scores['NPM'] += score // 16777216
+                        score %= 16777216
+                        scores['M'] += score // 1048576
+                        score %= 1048576
+                        scores['NS'] += score // 65536
+                        score %= 65536
+                        scores['D'] += score // 4096
+                        score %= 4096
+                        scores['C'] += score // 256
+                        score %= 256
+                        scores['A'] += score
+                except:
+                    test = 0
+
                 return scores    
 
     response = requests.get(f"https://s3.amazonaws.com/ps-scores/production/{matchCode}/match_scores.json").json()
