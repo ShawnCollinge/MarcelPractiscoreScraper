@@ -49,7 +49,9 @@ def get_stage_info(matchCode, shooter):
     get_overall_info(response[0]['Match'][0]['Overall'])
     shooter.update(get_div_info(response[0]['Match']))
     for i in range(1, len(response)):
-        stageName = list(response[i].keys())[1]
+        stageName = list(response[i].keys())
+        stageName.sort()
+        stageName = stageName[0]
         for div in response[i][stageName]:
             if shooterClass in div:
                 stageInfo.append(get_stage_place(div[shooterClass]))
